@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+}
+.dark01{
+    color: #181818;
+}
+.dark02{
+   color: #474747;
+}
+
+nav{
+    margin:51px 226px;
+    display:flex;
+    justify-content: space-between;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    gap:30px;
+list-style: none;
+}
+nav ul a{
+    color: #474747;
+    text-decoration:none;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    color:white;
+    border:none;
+    border-radius: 5px;
+    padding:18px 36px
+    
+}
+.container{
+    background-color: #FFF8F3;
+}
+
+    
+.writing-container{
+  display:flex;
+align-items: center;
+ 
+}
+.hardy{
+  a 
+}
