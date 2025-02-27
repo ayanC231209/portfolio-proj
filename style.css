@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    font-family: "Open Sans";
 }
 .dark01{
     color: #181818;
@@ -7,7 +8,17 @@
 .dark02{
    color: #474747;
 }
-
+.title{
+    font-size: 45px;
+font-style: normal;
+font-weight: 800;
+}
+.word{
+    color: #FD6E0A;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 80
+}
 nav{
     margin:51px 226px;
     display:flex;
@@ -24,6 +35,7 @@ nav ul a{
     text-decoration:none;
 }
 .btn-primary{
+   text-align:center;
     background-color: #FD6E0A;
     color:white;
     border:none;
@@ -33,14 +45,53 @@ nav ul a{
 }
 .container{
     background-color: #FFF8F3;
+    background-image: url("assets/developer.png"),url("assets/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+ padding: 1px;
 }
 
     
 .writing-container{
   display:flex;
+  justify-content: space-between;
 align-items: center;
  
+
 }
-.hardy{
-  a 
+.writings{
+   
+    margin:200px 200px;
+}
+.img-container{
+    width: 584px;
+height: 676px;
+ 
+}
+.header1{
+    font-size: 45px;
+font-style: normal;
+font-weight: 600;
+
+}
+.header2{
+    font-size: 85px;
+font-style: normal;
+font-weight: 700;
+
+}
+.para1{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+}
+.btn-secondary{
+  margin-left: 30px;
+    text-align:center;
+    color : #FD6E0A;
+   background-color:white;
+    border:none;
+    border-radius: 5px;
+    border: 1px solid; 
+    padding:18px 36px
 }
