@@ -1,5 +1,6 @@
 *{
     margin:0px;
+    padding: 0px;
     font-family: "Open Sans";
 }
 .dark01{
@@ -23,6 +24,7 @@ nav{
     margin:51px 226px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
 }
 nav ul{
     display:flex;
@@ -48,7 +50,8 @@ nav ul a{
     background-image: url("assets/developer.png"),url("assets/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left,bottom right;
- padding: 1px;
+ padding-top:50px;
+ margin-bottom: 130px;
 }
 
     
@@ -94,4 +97,39 @@ font-weight: 400;
     border-radius: 5px;
     border: 1px solid; 
     padding:18px 36px
+}
+
+.container2{
+    margin: 230px 130px;
+ border: 1px solid #FFF8F3;
+    background-color:#FFF8F3 ;
+
+ border-radius: 5px;
+}
+.container2-inside{
+    margin: 156px 131px;
+
+background-color: #fff;
+}
+.container2-heading{
+text-align:center;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+margin-bottom: 30px;
+}
+.container2-para{
+    text-align: center;
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 30px;
+
+}
+.container2-cards{
+    display: flex;
+    justify-content: space-around;
+}
+.container2-head{
+    text-align: center;
 }
